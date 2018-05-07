@@ -7,6 +7,7 @@ public class SwitchExample {
         int day = 2;
 
         switch (day) {
+
             case 1: System.out.println("Sunday");
                 break;
             case 2: System.out.println("Monday");
@@ -22,6 +23,8 @@ public class SwitchExample {
             case 7: System.out.println("Saturday");
                 break;
 
+            default: System.out.println("Invalid day!");
+                break;
 
         }
     }

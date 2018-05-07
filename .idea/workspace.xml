@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef2d2e0-220d-46bf-aa8e-88e875f77698" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/examples/ForLoopExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/ForLoopExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/LoopControlExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/WhileLoopExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +43,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForLoopExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ForLoopExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/examples/ForLoopExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhileLoopExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/WhileLoopExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoopControlExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/examples/LoopControlExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -67,6 +87,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/examples/SwitchExample.java" />
         <option value="$PROJECT_DIR$/src/examples/ForLoopExample.java" />
+        <option value="$PROJECT_DIR$/src/examples/WhileLoopExample.java" />
+        <option value="$PROJECT_DIR$/src/examples/LoopControlExample.java" />
       </list>
     </option>
   </component>
@@ -80,8 +102,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="736" />
-    <option name="y" value="256" />
+    <option name="x" value="742" />
+    <option name="y" value="235" />
     <option name="width" value="1538" />
     <option name="height" value="1000" />
   </component>
@@ -137,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForLoopExample">
+  <component name="RunManager" selected="Application.LoopControlExample">
     <configuration name="ForLoopExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examples.ForLoopExample" />
       <module name="MyFirstProgram" />
@@ -149,8 +171,30 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="LoopControlExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.LoopControlExample" />
+      <module name="MyFirstProgram" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="SwitchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examples.SwitchExample" />
+      <module name="MyFirstProgram" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WhileLoopExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.WhileLoopExample" />
       <module name="MyFirstProgram" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
@@ -205,9 +249,13 @@
     <list>
       <item itemvalue="Application.SwitchExample" />
       <item itemvalue="Application.ForLoopExample" />
+      <item itemvalue="Application.WhileLoopExample" />
+      <item itemvalue="Application.LoopControlExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoopControlExample" />
+        <item itemvalue="Application.WhileLoopExample" />
         <item itemvalue="Application.ForLoopExample" />
         <item itemvalue="Application.SwitchExample" />
       </list>
@@ -243,15 +291,15 @@
       <workItem from="1525665826112" duration="557000" />
       <workItem from="1525666403389" duration="183000" />
       <workItem from="1525666607403" duration="795000" />
-      <workItem from="1525667551482" duration="887000" />
+      <workItem from="1525667551482" duration="1453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11182000" />
+    <option name="totallyTimeSpent" value="11748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="256" width="1538" height="1000" extended-state="0" />
+    <frame x="742" y="235" width="1538" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -292,20 +340,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/examples/SwitchExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/MyFirstProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/IfElseExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -646,6 +680,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/WhileLoopExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/LoopControlExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
         </state>
       </provider>
     </entry>
